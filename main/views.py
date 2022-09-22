@@ -2,9 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("<h4>Hello</h4>")
+    return render (request,'index.html')
 
-def home(request):
-    return HttpResponse("<h8>World</h8>")
+def about(request):
+    return render(request,'about.html')
 
 
