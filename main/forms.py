@@ -6,7 +6,7 @@ class TaskForm(ModelForm):
         model = Task
         fields = ["title","task","answer"]
         widgets = {"title":TextInput (attrs ={'class':'form-control','placeholder':'Введите название'}),
-        "task":Textarea (attrs ={'class':'form-control','placeholder':'Введите описание'}),
-        "answer":Textarea (attrs ={'class':'form-control','placeholder':'Введите ответ'}),}
+        "task":Textarea (attrs ={'class':'form-control','placeholder':'Введите описание'}),}
+
 
 
